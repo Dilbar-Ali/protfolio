@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background: black; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar{
+    color: white;
+    display: flex;
+    /* justify-content: ; */
+    /* align-items: center; */
+    /* width: 80%; */
+    background-color: black;
+    position: sticky;
+    top: 0;
+    
+}
+.navbar span{
+    color: rgb(243, 0, 49);
+}
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+
+    
+}
+.navbar ul li{
+    margin-left: 60px;
+    
+}
+.navbar ul li:hover{
+    color: crimson;
+    cursor: pointer;
+}
+.section1{
+
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+    align-items: center;
+    background-image: url(./images/face-1283106_1920.jpg);
+    background-size: cover;
+    background-position: center;
+color: white;
+
+    /* justify-content: center; */
+}
+.section1 .content{
+ 
+    /* display: flex;
+ 
+    align-items: center;
+    justify-content: center; */
+    margin-left: 10rem;
+    /* line-height: 5px; */
+}
+.section1 .content h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+.section1 .content span{
+    color: crimson;
+}
+.section1 .content button{
+    margin-top: 20px;
+    background-color: crimson;
+    color: white;
+    padding: 8px 25px 8px 25px;
+    border: none;
+    
+
+}
+.section1 .content button:hover{
+    background-color: white;
+    color: crimson  ;
+    font-weight: 600;
+}
+
+.section2 {
+width: 100vw;
+height: 50vh;
+margin-top: 65%;
+    color: black;
+    margin-right: 50%;
+    position: absolute;
+    /* background-color: aqua; */
+}
+.section2 h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 700;
+}
+.sec2 .contant{
+    width: 60%;
+    margin-right: 10%;
+}
+.sec2 img{
+    width: 60%;
+    margin-left: 15%;
+}
+.sec2{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec2  button{
+    margin-top: 20px;
+    background-color: crimson;
+    color: white;
+    padding: 8px 25px 8px 25px;
+    border: none;
+    
+
+}
+.sec2  button:hover{
+    background-color: white;
+    color: crimson  ;
+    font-weight: 600;
+    border: 1px solid black;
+}
+
+.section3 {
+background-color: black;
+height: 60vh;
+width: 100vw;
+margin-top: 160%;
+margin-left: -490px;
+}
+.section3 h1{
+    color: red;
+    text-align: center;
+    line-height: 6.5rem;
+    color: white;
+
+}
