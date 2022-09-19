@@ -83,7 +83,7 @@ color: white;
 .section2 {
 width: 100vw;
 height: 50vh;
-margin-top: 65%;
+/* margin-top: 65%; */
     color: black;
     margin-right: 50%;
     position: absolute;
@@ -129,8 +129,8 @@ margin-top: 65%;
 background-color: black;
 height: 80vh;
 width: 100vw;
-margin-top: 160%;
-margin-left: -490px;
+margin-top: 50%;
+/* margin-left: -490px; */
 }
 .section3 h1{
     color: red;
@@ -146,7 +146,7 @@ margin-left: -490px;
 }
 .cards{
     width: 25%;
-    background-color: rgba(51, 39, 39, 0.315);
+    background-color: rgba(255, 254, 254, 0.115);
     position: relative;
     height: 70%;
     display: flex;
@@ -155,6 +155,7 @@ justify-content: center;
 align-items: center;    
 border-radius: 30px;
 padding: 20px;
+color: white;
 }
 
 
@@ -166,4 +167,44 @@ padding: 20px;
 }
 .cards h5{
     color: aliceblue;
+}
+
+
+.section4{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+} 
+.section4s h1{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.section4 .left-con{
+    width: 40%;
+}
+.section4 .right-con{
+    width: 40%;
+}
+.section4 .left-con button{
+    margin-top: 20px;
+    background-color: crimson;
+    color: white;
+    padding: 8px 25px 8px 25px;
+    border: none;
+}
+
+.section4  button:hover{
+    background-color: white;
+    color: crimson  ;
+    font-weight: 600;
+    border: 1px solid black;
+}
+
+.progress{
+margin:0px 0px 0px 0px  ;
+/* line-height: 1.2rem; */
 }
