@@ -158,6 +158,9 @@ padding: 20px;
 color: white;
 }
 
+.cards:hover{
+    background-color: crimson;
+}
 
 .section3 .cards img{
     border-radius: 50%;
