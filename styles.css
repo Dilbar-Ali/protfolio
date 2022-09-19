@@ -127,7 +127,7 @@ margin-top: 65%;
 
 .section3 {
 background-color: black;
-height: 60vh;
+height: 80vh;
 width: 100vw;
 margin-top: 160%;
 margin-left: -490px;
@@ -138,4 +138,32 @@ margin-left: -490px;
     line-height: 6.5rem;
     color: white;
 
+}
+.cards-s{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cards{
+    width: 25%;
+    background-color: rgba(51, 39, 39, 0.315);
+    position: relative;
+    height: 70%;
+    display: flex;
+flex-direction:column ;
+justify-content: center;
+align-items: center;    
+border-radius: 30px;
+padding: 20px;
+}
+
+
+.section3 .cards img{
+    border-radius: 50%;
+    border: 4px solid crimson;
+ 
+    
+}
+.cards h5{
+    color: aliceblue;
 }
